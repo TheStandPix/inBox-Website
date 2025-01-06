@@ -1,0 +1,84 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  color: #333;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 20px;
+  font-size: 2.5rem;
+}
+
+/* Main Buttons */
+.button-section {
+  margin: 50px 0;
+}
+
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0053a4;
+}
+
+/* Navigation Links */
+.subpages {
+  margin-top: 30px;
+}
+
+.subpages a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0078d7;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.subpages a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  background-color: #f4f4f4;
+  font-size: 0.9rem;
+}
+
+/* Back Link */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0078d7;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
