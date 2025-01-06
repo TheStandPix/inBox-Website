@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inBox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>inBox</h1>
+  </header>
+  <main>
+    <section class="button-section">
+      <button onclick="alert('Booking a Locker...')">Book a Locker Now</button>
+      <button onclick="alert('Checking Locations...')">Check Locations Available</button>
+      <button onclick="alert('Collecting your Box...')">Collect Box</button>
+    </section>
+    <nav class="subpages">
+      <a href="contact.html">Contact Us</a>
+      <a href="info.html">Info & Locations</a>
+    </nav>
+  </main>
+  <footer>
+    <p>inBox &copy; 2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info & Locations - inBox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Info & Locations</h1>
+  </header>
+  <main>
+    <p>We have lockers available at the following locations:</p>
+    <ul>
+      <li>New York - Locker Hub 1</li>
+      <li>Los Angeles - Locker Hub 2</li>
+      <li>San Francisco - Locker Hub 3</li>
+    </ul>
+    <a href="index.html" class="back-link">Back to Home</a>
+  </main>
+  <footer>
+    <p>inBox &copy; 2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
